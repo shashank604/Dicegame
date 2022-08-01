@@ -1,0 +1,120 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #89c6bd;
+}
+
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    /* text-shadow: 5px 0 #232931; */
+    font-size: 100px;
+    color: #d72126;	
+	
+}
+.wicked{
+  background-color:#cad8d5;
+  position:absolute;
+  left:50px;
+  width:100px;
+  height:100px;
+  margin:20px auto;
+  -webkit-animation:rescale 2s infinite;
+  animation: rescale 4s infinite;
+}
+.wicked1{
+  background-color:#cad8d5;
+ position:absolute;
+  left:50px;
+  width:100px;
+  height:100px;
+  margin:20px auto;
+  -webkit-animation:rescale 3s infinite;
+  animation: rescale 3s infinite;
+}
+.wicked2{
+  background-color:#cad8d5;
+ position:absolute;
+  right:50px;
+  width:100px;
+  height:100px;
+  margin:20px auto;
+  -webkit-animation:rescale 3s infinite;
+  animation: rescale 3s infinite;
+}
+.wicked3{
+  background-color:#cad8d5;
+ position:absolute;
+  right:50px;
+  width:100px;
+  height:100px;
+  margin:20px auto;
+  -webkit-animation:rescale 4s infinite;
+  animation: rescale 4s infinite;
+}
+@-webkit-keyframes rescale{
+  0% {transform:rotate(0deg);}
+  10% {transform:rotate(36deg);}
+  20% {transform:rotate(72deg);}
+  30% {transform:rotate(108deg);}
+  40% {transform:rotate(144deg);}
+  50% {transform:rotate(180deg);}
+  60% {transform:rotate(216deg);}
+  70% {transform:rotate(252deg);}
+  80% {transform:rotate(288deg);}
+  90% {transform:rotate(334deg);}
+  100% {transform:rotate(360deg);}
+}
+
+@keyframes rescale{
+  0% {transform:rotate(0deg);}
+  10% {transform:rotate(36deg);}
+  20% {transform:rotate(72deg);}
+  30% {transform:rotate(108deg);}
+  40% {transform:rotate(144deg);}
+  50% {transform:rotate(180deg);}
+  60% {transform:rotate(216deg);}
+  70% {transform:rotate(252deg);}
+  80% {transform:rotate(288deg);}
+  90% {transform:rotate(334deg);}
+  100% {transform:rotate(360deg);}
+}
+.note
+{
+   position:absolute;
+   left:10%;
+    font-size: 2rem;
+    color: color: #f45353b0;;
+
+}
+p {
+    font-size: 2rem;
+    color: #000000;
+    font-family: 'Indie Flower', cursive;
+}
+
+.description
+{
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+position:absolute;
+left:30%;
+top:50%;
+}
+img {
+  width: 80%;
+webkit-animation:rescale 2s infinite;
+  animation: rescale 2s infinite;
+}
+
