@@ -114,7 +114,5 @@ top:50%;
 }
 img {
   width: 80%;
-webkit-animation:rescale 2s infinite;
-  animation: rescale 2s infinite;
 }
 
